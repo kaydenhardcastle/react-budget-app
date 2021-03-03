@@ -15,6 +15,8 @@ It is designed to teach you how to use the basics of React.
 
 In the project directory, you can run:
 
+### `npm build`
+
 ### `npm start`
 
 Runs the app in the development mode.\
