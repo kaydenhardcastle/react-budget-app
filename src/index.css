@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: sans-serif;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.header-text {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.budget-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 50px auto;
+  padding: 30px 15px;
+  border: 5px solid rgb(57, 162, 255);
+  border-radius: 5px;
+}
+
+.budget-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dollar {
+  color: rgb(0, 210, 59);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.budget {
+  width: 125px;
+  font-size: 35px;
+  color: rgb(0, 210, 59);
+  border-style: none;
+  border: 5px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.add-btn {
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.add-item-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: rgb(57, 162, 255);
+  border-radius: 5px;
+}
+
+.form-title {
+  color: #fff;
+  border-bottom: 5px solid #333;
+  width: 300px;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.form-label {
+  font-size: 20px;
+  color: #fff;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.save-btn {
+  background-color: #333;
+  color: #fff;
+  margin: 20px 0 10px 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+}
+
+.item-id {
+  font-size: 12px;
+  color: #999;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 60px;
+  background-color: rgb(215, 215, 215);
+  border-left: solid rgb(57, 162, 255) 5px;
+  border-radius: 5px;
+  margin: 10px auto 0 auto;
+  padding-left: 5px;
+}
+
+.item-label {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(57, 162, 255);
+  padding-left: 5px;
+}
+
+.close {
+  margin: 0 0 auto 0;
+  color: rgb(240, 85, 64);
+}
