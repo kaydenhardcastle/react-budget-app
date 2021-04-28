@@ -1,7 +1,6 @@
-# Like and Subscribe to My YouTube Channel below
+# This app was crafted during the making of this tutorial video 
 
-https://www.youtube.com/channel/UCKrcYizd8b8an9vJOaVTbFA
-
+https://www.youtube.com/watch?v=I4nxzLSfNE8
 
 
 # Getting Started with Create React App
@@ -23,3 +22,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
+
+# Like and Subscribe to My YouTube Channel below
+
+https://www.youtube.com/channel/UCKrcYizd8b8an9vJOaVTbFA
